@@ -11,6 +11,9 @@ import {
 import Root from './assets/Components/Root';
 import Home from './assets/Components/Home/Home';
 import Buyer from './assets/Components/BuyerScreen/buyer';
+import Resut from './assets/Components/Buyer Search Result/Resut';
+import Details from './assets/Components/Details/Details';
+import About from './assets/Components/About/About';
 
 const router = createBrowserRouter([
   {
@@ -27,13 +30,23 @@ const router = createBrowserRouter([
         element:<Buyer></Buyer>
             
       },
-      
       {
-        path:'/job/:id',
-        // element:<JobDetails></JobDetails>,
-        loader: ()=>fetch('../jobs.json')
-      }
-      ,
+        path:'result',
+        element:<Resut></Resut>
+            
+      },
+      {
+        path:'details',
+        element:<Details></Details>
+            
+      },
+      {
+        path:'about',
+        element:<About></About>
+            
+      },
+      
+      
     ]
   },
 ]);
