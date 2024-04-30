@@ -10,10 +10,10 @@ import {
 
 import Root from './assets/Components/Root';
 import Home from './assets/Components/Home/Home';
-import Buyer from './assets/Components/BuyerScreen/buyer';
-import Resut from './assets/Components/Buyer Search Result/Resut';
+import Resut from './assets/Components/BuyerSearchResult/Resut';
 import Details from './assets/Components/Details/Details';
 import About from './assets/Components/About/About';
+import Buyer from './assets/Components/BuyerScreen/buyer';
 
 const router = createBrowserRouter([
   {
