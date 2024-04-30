@@ -6,6 +6,7 @@ import Testimonials from "./Testimonials";
 
 
 const Buyer = () => {
+    window.scrollTo(0, 0)
     return (
         <div>
             <BuyerBanner></BuyerBanner>

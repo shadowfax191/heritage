@@ -6,6 +6,7 @@ import Testimonials from "../BuyerScreen/Testimonials";
 import { Link } from "react-router-dom";
 
 const Resut = () => {
+    window.scrollTo(0, 0)
     const properties = [
         {
             image: "/image/Rectangle 20.png",

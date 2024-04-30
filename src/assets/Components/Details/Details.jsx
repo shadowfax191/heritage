@@ -7,6 +7,7 @@ import Carousel from "react-multi-carousel";
 
 
 const Details = () => {
+    window.scrollTo(0, 0)
     const [value, setValue] = useState(280);
 
     const handleChange = (event) => {
@@ -136,7 +137,7 @@ const Details = () => {
                 </div>
                 <div className="p-5">
                     <p className=" font-semibold text-[#6B7280]">property value</p>
-                    <p className="text-2xl font-semibold">$ 300k - $ 310k</p>
+                    <p className="text-2xl font-semibold my-3">$ 300k - $ 310k</p>
                     <p className="text-lg font-semibold text-[#6B7280]">Your bid can not be than 10% of the property Minimum value.</p>
                     <p>Min</p>
                     <p className="p-3">$ 280k</p>
