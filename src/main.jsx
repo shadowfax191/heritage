@@ -13,7 +13,7 @@ import Home from './assets/Components/Home/Home';
 import Resut from './assets/Components/BuyerSearchResult/Resut';
 import Details from './assets/Components/Details/Details';
 import About from './assets/Components/About/About';
-import Buyer from './assets/Components/BuyerScreen/buyer';
+// import Buyer from './assets/Components/BuyerScreen/buyer';
 
 const router = createBrowserRouter([
   {
@@ -25,11 +25,11 @@ const router = createBrowserRouter([
         element:<Home></Home>
       
       },
-      {
-        path:'buyer',
-        element:<Buyer></Buyer>
+      // {
+      //   path:'buyer',
+      //   element:<Buyer></Buyer>
             
-      },
+      // },
       {
         path:'result',
         element:<Resut></Resut>
